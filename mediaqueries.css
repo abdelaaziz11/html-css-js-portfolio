@@ -47,6 +47,24 @@
     }
   }
   
+  @media screen and (max-width: 961px) {
+  
+    #experience{
+      height: 200vh;
+    }
+  }
+  @media screen and (max-width: 454px) {
+    #experience{
+      height: 350vh;
+    }
+  }
+  @media screen and (max-width: 380px) {
+    #profile .section__pic-container img{
+      width: 200px;
+      height: 200px;
+    }
+  }
+
   @media screen and (max-width: 600px) {
     #contact,
     footer {
